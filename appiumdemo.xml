@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Settings AutoTest Report">
+    <test verbose="2" preserve-order="true"
+          name="Testsuit1.1.0 CUJ related scope">
+        <classes>
+            <class name="com.google.appiumdemo.autotest.pixel.testsuit1_1_0.TestCase1_1_1_Test">
+                <methods>
+                    <include name="testcase11"/>
+                    <include name="testcase42"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+</suite>

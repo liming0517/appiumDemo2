@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Testsuit1.1.0 CUJ related scope"
+           tests="6"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="147.572">
+  <properties />
+            <testcase name="testcase1_1_1" time="33.771" classname="com.google.appiumdemo.SettingsautoApplicationTests">
+                <failure type="org.springframework.web.util.NestedServletException"
+                  message="Request processing failed; nested exception is org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;lliming-macbookpro.roam.internal&apos;, ip: &apos;fe80:0:0:0:109d:ca1f:de6c:a255%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.6.1&apos;, java.version: &apos;1.8.0_341&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [24126373-b1f7-4536-8403-1f3172a88a4b, findElement {using=id, value=com.android.settings:id/password}]
+Capabilities {appium:appActivity: com.android.settings.Settings, appium:appPackage: com.android.settings, appium:automationname: Appium, appium:databaseEnabled: false, appium:desired: {appActivity: com.android.settings.Settings, appPackage: com.android.settings, automationname: Appium, deviceName: 1C031FDF6009RG, platformName: android, platformVersion: 12, sessionOverride: true, url: http://127.0.0.1:4723/wd/hub}, appium:deviceApiLevel: 32, appium:deviceManufacturer: Google, appium:deviceModel: Pixel 6, appium:deviceName: 1C031FDF6009RG, appium:deviceScreenDensity: 540, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: 1C031FDF6009RG, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.375, appium:platformVersion: 12, appium:sessionOverride: true, appium:statBarHeight: 124, appium:takesScreenshot: true, appium:url: http://127.0.0.1:4723/wd/hub, appium:viewportRect: {height: 2104, left: 0, top: 124, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: android}
+Session ID: 24126373-b1f7-4536-8403-1f3172a88a4b"
+              >
+                    <![CDATA[org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'lliming-macbookpro.roam.internal', ip: 'fe80:0:0:0:109d:ca1f:de6c:a255%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.1', java.version: '1.8.0_341'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [24126373-b1f7-4536-8403-1f3172a88a4b, findElement {using=id, value=com.android.settings:id/password}]
+Capabilities {appium:appActivity: com.android.settings.Settings, appium:appPackage: com.android.settings, appium:automationname: Appium, appium:databaseEnabled: false, appium:desired: {appActivity: com.android.settings.Settings, appPackage: com.android.settings, automationname: Appium, deviceName: 1C031FDF6009RG, platformName: android, platformVersion: 12, sessionOverride: true, url: http://127.0.0.1:4723/wd/hub}, appium:deviceApiLevel: 32, appium:deviceManufacturer: Google, appium:deviceModel: Pixel 6, appium:deviceName: 1C031FDF6009RG, appium:deviceScreenDensity: 540, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: 1C031FDF6009RG, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.375, appium:platformVersion: 12, appium:sessionOverride: true, appium:statBarHeight: 124, appium:takesScreenshot: true, appium:url: http://127.0.0.1:4723/wd/hub, appium:viewportRect: {height: 2104, left: 0, top: 124, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: android}
+Session ID: 24126373-b1f7-4536-8403-1f3172a88a4b
+  org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+  org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+  javax.servlet.http.HttpServlet.service(HttpServlet.java:670)
+  org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+  org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:72)
+  javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+  org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:167)
+  org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:134)
+  org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:201)
+  com.google.appiumdemo.SettingsautoApplicationTests.testcase1_1_1(SettingsautoApplicationTests.java:43)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+  org.testng.internal.invokers.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:252)
+  org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:184)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:266)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:665)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+  java.lang.Thread.run(Thread.java:750)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'lliming-macbookpro.roam.internal', ip: 'fe80:0:0:0:109d:ca1f:de6c:a255%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.1', java.version: '1.8.0_341'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [24126373-b1f7-4536-8403-1f3172a88a4b, findElement {using=id, value=com.android.settings:id/password}]
+Capabilities {appium:appActivity: com.android.settings.Settings, appium:appPackage: com.android.settings, appium:automationname: Appium, appium:databaseEnabled: false, appium:desired: {appActivity: com.android.settings.Settings, appPackage: com.android.settings, automationname: Appium, deviceName: 1C031FDF6009RG, platformName: android, platformVersion: 12, sessionOverride: true, url: http://127.0.0.1:4723/wd/hub}, appium:deviceApiLevel: 32, appium:deviceManufacturer: Google, appium:deviceModel: Pixel 6, appium:deviceName: 1C031FDF6009RG, appium:deviceScreenDensity: 540, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: 1C031FDF6009RG, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.375, appium:platformVersion: 12, appium:sessionOverride: true, appium:statBarHeight: 124, appium:takesScreenshot: true, appium:url: http://127.0.0.1:4723/wd/hub, appium:viewportRect: {height: 2104, left: 0, top: 124, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: android}
+Session ID: 24126373-b1f7-4536-8403-1f3172a88a4b
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+  org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+  io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:189)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+  org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+  org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+  com.google.appiumdemo.autotest.pixel.forTestTracker.testsuit1_1_0.TestCase1_1_1.ConnectWifi(TestCase1_1_1.java:66)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+  org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+  org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+  org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+  org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+  org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+  org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+  org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+  javax.servlet.http.HttpServlet.service(HttpServlet.java:670)
+  org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+  org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:72)
+  javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+  org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:167)
+  org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:134)
+  org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:201)
+  com.google.appiumdemo.SettingsautoApplicationTests.testcase1_1_1(SettingsautoApplicationTests.java:43)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+  org.testng.internal.invokers.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:252)
+  org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:184)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:266)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:665)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+  java.lang.Thread.run(Thread.java:750)
+]]>
+                </failure>
+
+          </testcase>
+  
+  
+            <testcase name="testcase1_1_5" time="20.261" classname="com.google.appiumdemo.SettingsautoApplicationTests" />
+                <testcase name="testcase1_1_6" time="28.695" classname="com.google.appiumdemo.SettingsautoApplicationTests" />
+                <testcase name="testcase1_1_3" time="34.958" classname="com.google.appiumdemo.SettingsautoApplicationTests" />
+                <testcase name="testcase1_1_2" time="23.723" classname="com.google.appiumdemo.SettingsautoApplicationTests" />
+                <testcase name="testcase1_1_4" time="6.164" classname="com.google.appiumdemo.SettingsautoApplicationTests" />
+      
+</testsuite>

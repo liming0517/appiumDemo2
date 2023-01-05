@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Testsuit1.1.0 CUJ related scope"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="34.636">
+  <properties />
+  
+  
+            <testcase name="testcase1_1_5" time="15.171" classname="com.google.appiumdemo.autotest.pixel.testsuit1_1_0.TestCase1_1_1_Test" />
+                <testcase name="testcase1_1_6" time="19.465" classname="com.google.appiumdemo.autotest.pixel.testsuit1_1_0.TestCase1_1_1_Test" />
+      
+</testsuite>
