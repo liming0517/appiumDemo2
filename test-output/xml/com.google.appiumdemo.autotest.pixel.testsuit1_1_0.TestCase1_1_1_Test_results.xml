@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="73.706">
+           time="81.738">
   <properties />
   
   
-            <testcase name="testcase11" time="35.653" classname="com.google.appiumdemo.autotest.pixel.testsuit1_1_0.TestCase1_1_1_Test" />
-                <testcase name="testcase42" time="38.053" classname="com.google.appiumdemo.autotest.pixel.testsuit1_1_0.TestCase1_1_1_Test" />
+            <testcase name="testcase42" time="39.447" classname="com.google.appiumdemo.autotest.pixel.testsuit1_1_0.TestCase1_1_1_Test" />
+                <testcase name="testcase11" time="42.291" classname="com.google.appiumdemo.autotest.pixel.testsuit1_1_0.TestCase1_1_1_Test" />
       
 </testsuite>
